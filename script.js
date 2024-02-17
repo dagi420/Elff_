@@ -1,13 +1,3 @@
-const header = document.querySelector("header");
-const hamburgerBtn = document.querySelector("#hamburger-btn");
-const closeMenuBtn = document.querySelector("#close-menu-btn");
-
-// Toggle mobile menu on hamburger button click
-hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
-
-// Close mobile menu on close button click
-closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
-
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM Content Loaded");
 
@@ -35,8 +25,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
+    const galleryItems = document.querySelectorAll(".gallery-item");
+
+    // Check if gallery items are in viewport on scroll
+    window.addEventListener("scroll", function() {
+        console.log("Scroll");
+        galleryItems.forEach(item => {
+            if (isElementInViewport(item)) {
+                item.classList.add("animate");
+            }
+        });
+    });
+
     function isElementInViewport(el) {
         const rect = el.getBoundingClientRect();
+        
         return (
             rect.top >= 0 &&
             rect.left >= 0 &&
@@ -45,3 +48,24 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     }
 });
+
+const header = document.querySelector("header");
+const hamburgerBtn = document.querySelector("#hamburger-btn");
+const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+   // Function to close the mobile menu
+   function closeMobileMenu() {
+    header.classList.remove("show-mobile-menu");
+}
+
+// Toggle mobile menu on hamburger button click
+hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+// Close mobile menu on close button click
+closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+   // Close mobile menu when a menu item is clicked
+   const menuLinks = document.querySelectorAll(".menu-links a");
+   menuLinks.forEach(link => {
+       link.addEventListener("click", closeMobileMenu);
+   });
+

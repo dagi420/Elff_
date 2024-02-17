@@ -22,6 +22,7 @@ header {
   left: 0;
   width: 100%;
   padding: 20px;
+  z-index: 900;
 }
 
 header .navbar {
@@ -58,10 +59,12 @@ header .navbar {
 .navbar a:hover {
   color: #205424;
 }
+/*Homepage*/
+
 
 .hero-section {
   height: 100vh;
-  background-image: url("img/Jebena.png");
+  background-image: url("img/JebenaF.png");
   background-position:center;
 
   background-size:cover;
@@ -85,7 +88,7 @@ header .navbar {
 }
 
 .hero-section .content p {
-  font-weight: 300;
+  font-weight: 400;
   max-width: 600px;
   margin-top: 15px;
 }
@@ -119,6 +122,8 @@ header .navbar {
   color: #fff;
   cursor: pointer;
   display: none;
+  position: relative;
+  z-index: 1000; 
 }
 
 @media (max-width: 768px) {
@@ -302,10 +307,15 @@ header .navbar {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
   overflow-x: hidden;
 }
-
+.gallery-item.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
 .gallery-item img {
   width: 100%; /* Ensure images fill their container */
   height: auto; /* Maintain original aspect ratio */
@@ -331,14 +341,18 @@ header .navbar {
   padding: 50px 0;
   background: linear-gradient(to top, #00362a, #000000);
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .contact-form {
   width: 45%;
+  position: relative;
 }
 
 .map-container {
   width: 45%;
+  position: relative;
 }
 
 /* Style the form elements */
