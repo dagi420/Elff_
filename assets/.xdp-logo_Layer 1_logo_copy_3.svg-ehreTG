@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="98.467163"
+   height="126.40205"
+   viewBox="0 0 98.467163 126.40205"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="179.28264"
+       y="170.86096"
+       width="413.95871"
+       height="471.13568"
+       id="rect1" />
+    <font
+       horiz-adv-x="1000"
+       id="font2"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="512"
+       vert-origin-y="768"
+       vert-adv-y="1024">
+      <font-face
+         units-per-em="1000"
+         ascent="750"
+         cap-height="600"
+         x-height="400"
+         descent="200"
+         id="font-face2"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1000h-1000z"
+         id="missing-glyph2" />
+    </font>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-201.54243,-61.522192)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-size:85.3333px;font-family:Niramit;-inkscape-font-specification:'Niramit, Normal';letter-spacing:21.08px;white-space:pre;shape-inside:url(#rect1);fill:#255c47;stroke:#ffe3e3" />
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;font-family:Niramit;-inkscape-font-specification:'Niramit, Normal';letter-spacing:5.57742px;white-space:pre;inline-size:20.1454;fill:#255a3f;fill-opacity:1;fill-rule:evenodd;stroke:#ffeee3;stroke-width:0.264639;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       x="85.239258"
+       y="69.420616"
+       id="text2"
+       transform="matrix(7.3960396,0,0,7.7978217,-432.52597,-364.29627)"><tspan
+         x="85.239258"
+         y="69.420616"
+         id="tspan3"><tspan
+           style="font-family:'ዋልድባ - ይገዙ ብሥራት ጎቲክ';-inkscape-font-specification:'ዋልድባ - ይገዙ ብሥራት ጎቲክ'"
+           id="tspan1">፼</tspan></tspan></text>
+  </g>
+</svg>

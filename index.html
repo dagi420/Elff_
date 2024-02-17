@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELFF|COFFEE</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+<body>
+<header>
+    <!---Landing home page------> 
+    <div class="container">
+        <nav class="navbar">
+            <a class="logo" href="#Home">Elff Coffee<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="#footer">Socials</a></li>
+            </ul>
+            <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+    </div>
+</header>
+
+<section class="hero-section">
+    <div class="content">
+        <h2>Start Your Day With Fresh Coffee</h2>
+        <p>
+            Coffee is a popular and beloved beverage enjoyed by 
+            people around the world. Awaken your senses with a steaming cup of liquid motivation.
+        </p>
+        <button>Order Now</button>
+    </div>
+</section>
+
+<section class="menu-section" id="menu">
+    <h2>Menu</h2>
+    <div class="menu-category" id="drinks">
+        <h3>Drinks</h3>
+        <div class="menu-items">
+            <!-- Drink items go here -->
+            <div class="menu-item">
+                <h4>Espresso</h4>
+                <p>A shot of concentrated coffee brewed by forcing hot water through finely-ground coffee beans.</p>
+            </div>
+            <div class="menu-item">
+              <h4>Espresso</h4>
+              <p>A shot of concentrated coffee brewed by forcing hot water through finely-ground coffee beans.</p>
+          </div>
+            <div class="menu-item">
+                <h4>Cappuccino</h4>
+                <p>Espresso combined with steamed milk and topped with frothed milk.</p>
+            </div>
+        </div>
+    </div>
+    <div class="menu-category" id="foods">
+        <h3>Foods</h3>
+        <div class="menu-items">
+            <!-- Food items go here -->
+            <div class="menu-item">
+                <h4>Breakfast Sandwich</h4>
+                <p>A delicious sandwich made with freshly baked bread, eggs, cheese, and your choice of ham or bacon.</p>
+            </div>
+            <div class="menu-item">
+              <h4>Breakfast Sandwich</h4>
+              <p>A delicious sandwich made with freshly baked bread, eggs, cheese, and your choice of ham or bacon.</p>
+          </div>
+          
+            <div class="menu-item">
+                <h4>Avocado Toast</h4>
+                <p>Sourdough bread topped with mashed avocado, cherry tomatoes, and a sprinkle of sea salt.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery-section" id="shop">
+    <h2>Our Shop</h2>
+    <div class="gallery-items">
+        <!-- Gallery items go here -->
+        <div class="gallery-item">
+            <img src="./assets/img/2023-10-30 (3).jpg" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="./assets/img/img2.jpg" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+          <img src="./assets/img/img1.jpg" alt="Gallery Image 2">
+      </div>
+      <div class="gallery-item">
+        <img src="./assets/img/img6.jpg" alt="Gallery Image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/img/img5.jpg" alt="Gallery Image 2">
+  </div>
+  <div class="gallery-item">
+    <img src="./assets/img/img9.jpg" alt="Gallery Image 2">
+  </div>
+  <div class="gallery-item">
+    <img src="./assets/img/img4.jpg" alt="Gallery Image 2">
+  </div>
+    </div>
+</section>
+
+<section class="contact-location-section" id="contact">
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="contact.php" method="post">
+            <!-- Contact form goes here -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15762.712672154896!2d38.7697986!3d9.0017319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85b14478bd61%3A0x445e989e9f43487!2sELFF%20Coffee!5e0!3m2!1sam!2set!4v1705244430454!5m2!1sam!2set" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="material-symbols-outlined">facebook</i></a>
+            <a href="#" class="social-icon"><i class="material-symbols-outlined">twitter</i></a>
+            <a href="#" class="social-icon"><i class="material-symbols-outlined">instagram</i></a>
+        </div>
+        <p>&copy; 2024 ELFF Coffee. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="script.js">
+  
+  </script>
+  
+
+</body>
+</html>
