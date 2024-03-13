@@ -32,6 +32,14 @@ header .navbar {
   max-width: 1200px;
   margin: 0 auto;
 }
+header.scrolled {
+  background:  rgba(0,0,0,0.77);/* Darker background color when scrolled */
+}
+
+/* Transition for Header Background on Scroll */
+header {
+  transition: background-color 1s ease-in-out;
+}
 
 .navbar .logo {
   color: #fff;
